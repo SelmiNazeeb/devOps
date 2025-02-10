@@ -28,7 +28,7 @@ print (String[0])
 for i in range (1,10):
     print (String[i])
 
-length = len(String)*-1     *-1 for reverse purpuse
+length = len(String)*-1     ///*-1 for reverse purpuse
 for i in range (0,length):
     print (String[i])
 
@@ -61,7 +61,7 @@ print(String.find('intern'))   ///print index of word intern (index of i)
 ####################################################################
 
 s = "Hello how are you doing after lunch"
-x = s.index("are")     ///search particular word after the given index and return back the index
+# x = s.index("are")     ///search particular word after the given index and return back the index
 y = s.index("a",7)
 z = s.index("you",5)
 print(x)
@@ -110,7 +110,7 @@ print(s.isidentifier())
 
 print(s.islower())        ///return true if all characters are lowercase
 
-#########################################################################
+# #########################################################################
 
 a = ["hi","how","are","youa"]   
 print("?".join(a))              ////join using "?"
